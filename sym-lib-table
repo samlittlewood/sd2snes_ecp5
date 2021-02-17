@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name snescart)(type Legacy)(uri ${KIPRJMOD}/libs/snescart.lib)(options "")(descr ""))
+  (lib (name misc-74)(type Legacy)(uri ${KIPRJMOD}/libs/misc-74.lib)(options "")(descr ""))
+  (lib (name lpc1754)(type Legacy)(uri ${KIPRJMOD}/libs/lpc1754.lib)(options "")(descr ""))
+  (lib (name cs4344)(type Legacy)(uri ${KIPRJMOD}/libs/cs4344.lib)(options "")(descr ""))
+  (lib (name sd2snes_ecp5)(type Legacy)(uri ${KIPRJMOD}/libs/sd2snes_ecp5.lib)(options "")(descr ""))
+)

@@ -1,0 +1,1052 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title "sd2snes ECP5"
+Date "2021-02-09"
+Rev "B"
+Comp "Maximilian Rehkopf"
+Comment1 "Rework for ECP5 by @samlittlewood"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 3250 4750 0    50   ~ 0
+SRAM_VDD
+Wire Wire Line
+	750  6650 750  6750
+Wire Wire Line
+	750  6750 900  6750
+Connection ~ 1300 6750
+Wire Wire Line
+	2250 4400 2250 4500
+Wire Wire Line
+	3150 6850 2650 6850
+Wire Wire Line
+	3150 6750 2650 6750
+Wire Wire Line
+	3150 6650 2650 6650
+Wire Wire Line
+	3150 6550 2650 6550
+Wire Wire Line
+	3150 6350 2650 6350
+Wire Wire Line
+	3150 6250 2650 6250
+Wire Wire Line
+	3150 6150 2650 6150
+Wire Wire Line
+	3150 6050 2650 6050
+Wire Wire Line
+	3150 5950 2650 5950
+Wire Wire Line
+	3150 5850 2650 5850
+Wire Wire Line
+	3150 5750 2650 5750
+Wire Wire Line
+	3150 5650 2650 5650
+Wire Wire Line
+	3150 5550 2650 5550
+Wire Wire Line
+	3150 5450 2650 5450
+Wire Wire Line
+	3150 5350 2650 5350
+Wire Wire Line
+	3150 5250 2650 5250
+Wire Wire Line
+	3150 5150 2650 5150
+Wire Wire Line
+	3150 5050 2650 5050
+Wire Wire Line
+	3150 7150 2650 7150
+Wire Wire Line
+	8500 3900 8000 3900
+Wire Wire Line
+	8500 4000 8000 4000
+Wire Wire Line
+	9700 2700 10200 2700
+Wire Wire Line
+	9700 2600 10200 2600
+Wire Wire Line
+	9700 2500 10200 2500
+Wire Wire Line
+	9700 2400 10200 2400
+Wire Wire Line
+	9700 2300 10200 2300
+Wire Wire Line
+	9700 2200 10200 2200
+Wire Wire Line
+	9700 2100 10200 2100
+Wire Wire Line
+	9700 2000 10200 2000
+Wire Wire Line
+	9700 1900 10200 1900
+Wire Wire Line
+	9700 1800 10200 1800
+Wire Wire Line
+	9700 1700 10200 1700
+Wire Wire Line
+	9700 1600 10200 1600
+Wire Wire Line
+	9700 1500 10200 1500
+Wire Wire Line
+	9700 1400 10200 1400
+Wire Wire Line
+	9700 1300 10200 1300
+Wire Wire Line
+	9700 1200 10200 1200
+Wire Wire Line
+	7450 5850 7450 5600
+Wire Wire Line
+	7450 6050 7450 6100
+Wire Wire Line
+	7150 6050 7150 6100
+Wire Wire Line
+	7150 5550 7150 5600
+Wire Wire Line
+	8500 1300 8000 1300
+Wire Wire Line
+	8500 1400 8000 1400
+Wire Wire Line
+	8500 1500 8000 1500
+Wire Wire Line
+	8500 1600 8000 1600
+Wire Wire Line
+	8500 1700 8000 1700
+Wire Wire Line
+	8500 1800 8000 1800
+Wire Wire Line
+	8500 1900 8000 1900
+Wire Wire Line
+	8500 2000 8000 2000
+Wire Wire Line
+	8500 2100 8000 2100
+Wire Wire Line
+	8500 2200 8000 2200
+Wire Wire Line
+	8500 2300 8000 2300
+Wire Wire Line
+	8500 2400 8000 2400
+Wire Wire Line
+	8500 2500 8000 2500
+Wire Wire Line
+	8500 2600 8000 2600
+Wire Wire Line
+	8500 2700 8000 2700
+Wire Wire Line
+	8500 2800 8000 2800
+Wire Wire Line
+	8500 2900 8000 2900
+Wire Wire Line
+	8500 3000 8000 3000
+Wire Wire Line
+	8500 3100 8000 3100
+Wire Wire Line
+	8500 3200 8000 3200
+Wire Wire Line
+	8500 3300 8000 3300
+Wire Wire Line
+	8500 3500 8000 3500
+Wire Wire Line
+	8500 3600 8000 3600
+Wire Wire Line
+	8500 3700 8000 3700
+Wire Wire Line
+	3150 7250 2650 7250
+Wire Wire Line
+	4350 5050 4850 5050
+Wire Wire Line
+	4350 5150 4850 5150
+Wire Wire Line
+	4350 5250 4850 5250
+Wire Wire Line
+	4350 5350 4850 5350
+Wire Wire Line
+	4350 5450 4850 5450
+Wire Wire Line
+	4350 5550 4850 5550
+Wire Wire Line
+	4350 5650 4850 5650
+Wire Wire Line
+	4350 5750 4850 5750
+Wire Wire Line
+	1250 4500 1250 4400
+Wire Wire Line
+	1200 6750 1300 6750
+Wire Wire Line
+	1300 7350 1750 7350
+Wire Wire Line
+	1750 7550 1750 7350
+Connection ~ 1750 7350
+Text Notes 550  900  0    250  ~ 50
+Memory
+Text Notes 1400 4050 0    50   ~ 0
+SRAM battery power
+Text Notes 750  6350 0    50   ~ 0
+Battery power switch
+$Comp
+L power:GND #PWR0603
+U 1 1 4BF2FE7B
+P 1750 7550
+F 0 "#PWR0603" H 1750 7550 30  0001 C CNN
+F 1 "GND" H 1750 7480 30  0001 C CNN
+F 2 "" H 1750 7550 60  0001 C CNN
+F 3 "" H 1750 7550 60  0001 C CNN
+	1    1750 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R603
+U 1 1 4BF2FDAF
+P 1750 6200
+F 0 "R603" V 1650 6200 50  0000 C CNN
+F 1 "20K" V 1750 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 6200 60  0001 C CNN
+F 3 "" H 1750 6200 60  0001 C CNN
+F 4 "Yageo" H 1750 6200 50  0001 C CNN "Manufacturer"
+F 5 "603-RC0402FR-0720KL" H 1750 6200 50  0001 C CNN "Mouser"
+F 6 "RC0402FR-0720KL" H 1750 6200 50  0001 C CNN "MPN"
+F 7 "311-20.0KLRCT-ND" H 1750 6200 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 1750 6200 50  0001 C CNN "Supplier"
+	1    1750 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R602
+U 1 1 4BF2FDAC
+P 1300 7050
+F 0 "R602" V 1200 7050 50  0000 C CNN
+F 1 "100K" V 1300 7050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1300 7050 60  0001 C CNN
+F 3 "" H 1300 7050 60  0001 C CNN
+F 4 "Yageo" H 1300 7050 50  0001 C CNN "Manufacturer"
+F 5 "603-RC0402FR-07100KL" H 1300 7050 50  0001 C CNN "Mouser"
+F 6 "RC0402FR-07100KL" H 1300 7050 50  0001 C CNN "MPN"
+F 7 "311-100KLRCT-ND" H 1300 7050 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 1300 7050 50  0001 C CNN "Supplier"
+	1    1300 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R601
+U 1 1 4BF2FDA9
+P 1050 6750
+F 0 "R601" V 950 6750 50  0000 C CNN
+F 1 "4K7" V 1050 6750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1050 6750 60  0001 C CNN
+F 3 "" H 1050 6750 60  0001 C CNN
+F 4 "Yageo" H 1050 6750 50  0001 C CNN "Manufacturer"
+F 5 "603-RC0402FR-074K7L" H 1050 6750 50  0001 C CNN "Mouser"
+F 6 "RC0402FR-074K7L" H 1050 6750 50  0001 C CNN "MPN"
+F 7 "311-4.7KLRCT-ND" H 1050 6750 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 1050 6750 50  0001 C CNN "Supplier"
+	1    1050 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q601
+U 1 1 4BF2FD9F
+P 1650 6750
+F 0 "Q601" H 1650 6600 50  0000 R CNN
+F 1 "MMBT2222A" H 1650 6900 50  0000 R CNN
+F 2 "rounded:SOT-23" H 1650 6750 60  0001 C CNN
+F 3 "" H 1650 6750 60  0001 C CNN
+F 4 "ON Semiconductor" H 1650 6750 50  0001 C CNN "Manufacturer"
+F 5 "863-MMBT2222ALT1G" H 1650 6750 50  0001 C CNN "Mouser"
+F 6 "MMBT2222ALT1G" H 1650 6750 50  0001 C CNN "MPN"
+F 7 "MMBT2222ALT1GOSCT-ND" H 1650 6750 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 1650 6750 50  0001 C CNN "Supplier"
+	1    1650 6750
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 3700 0    50   Input ~ 0
+~ROM1_CE
+Text GLabel 2650 7250 0    50   Input ~ 0
+~RAM_WE
+Text GLabel 2650 7150 0    50   Input ~ 0
+~RAM_OE
+Text GLabel 4850 5750 2    50   BiDi ~ 0
+RAM_DATA[7]
+Text GLabel 4850 5650 2    50   BiDi ~ 0
+RAM_DATA[6]
+Text GLabel 4850 5550 2    50   BiDi ~ 0
+RAM_DATA[5]
+Text GLabel 4850 5450 2    50   BiDi ~ 0
+RAM_DATA[4]
+Text GLabel 4850 5350 2    50   BiDi ~ 0
+RAM_DATA[3]
+Text GLabel 4850 5250 2    50   BiDi ~ 0
+RAM_DATA[2]
+Text GLabel 4850 5150 2    50   BiDi ~ 0
+RAM_DATA[1]
+Text GLabel 4850 5050 2    50   BiDi ~ 0
+RAM_DATA[0]
+Text GLabel 2650 6850 0    50   Input ~ 0
+RAM_ADDR[18]
+Text GLabel 2650 6750 0    50   Input ~ 0
+RAM_ADDR[17]
+Text GLabel 2650 6650 0    50   Input ~ 0
+RAM_ADDR[16]
+Text GLabel 2650 6550 0    50   Input ~ 0
+RAM_ADDR[15]
+Text GLabel 2650 6450 0    50   Input ~ 0
+RAM_ADDR[14]
+Text GLabel 2650 6250 0    50   Input ~ 0
+RAM_ADDR[12]
+Text GLabel 2650 6150 0    50   Input ~ 0
+RAM_ADDR[11]
+Text GLabel 2650 6050 0    50   Input ~ 0
+RAM_ADDR[10]
+Text GLabel 2650 5950 0    50   Input ~ 0
+RAM_ADDR[9]
+Text GLabel 2650 5850 0    50   Input ~ 0
+RAM_ADDR[8]
+Text GLabel 2650 5750 0    50   Input ~ 0
+RAM_ADDR[7]
+Text GLabel 2650 5650 0    50   Input ~ 0
+RAM_ADDR[6]
+Text GLabel 2650 5550 0    50   Input ~ 0
+RAM_ADDR[5]
+Text GLabel 2650 5450 0    50   Input ~ 0
+RAM_ADDR[4]
+Text GLabel 2650 5350 0    50   Input ~ 0
+RAM_ADDR[3]
+Text GLabel 2650 5250 0    50   Input ~ 0
+RAM_ADDR[2]
+Text GLabel 2650 5150 0    50   Input ~ 0
+RAM_ADDR[1]
+Text GLabel 2650 5050 0    50   Input ~ 0
+RAM_ADDR[0]
+Text GLabel 8000 3900 0    50   Input ~ 0
+~ROM_BHE
+Text GLabel 8000 4000 0    50   Input ~ 0
+~ROM_BLE
+Text GLabel 10200 2700 2    50   BiDi ~ 0
+ROM_DATA[15]
+Text GLabel 10200 2600 2    50   BiDi ~ 0
+ROM_DATA[14]
+Text GLabel 10200 2500 2    50   BiDi ~ 0
+ROM_DATA[13]
+Text GLabel 10200 2400 2    50   BiDi ~ 0
+ROM_DATA[12]
+Text GLabel 10200 2300 2    50   BiDi ~ 0
+ROM_DATA[11]
+Text GLabel 10200 2200 2    50   BiDi ~ 0
+ROM_DATA[10]
+Text GLabel 10200 2100 2    50   BiDi ~ 0
+ROM_DATA[9]
+Text GLabel 10200 2000 2    50   BiDi ~ 0
+ROM_DATA[8]
+Text GLabel 10200 1900 2    50   BiDi ~ 0
+ROM_DATA[7]
+Text GLabel 10200 1800 2    50   BiDi ~ 0
+ROM_DATA[6]
+Text GLabel 10200 1700 2    50   BiDi ~ 0
+ROM_DATA[5]
+Text GLabel 10200 1600 2    50   BiDi ~ 0
+ROM_DATA[4]
+Text GLabel 10200 1500 2    50   BiDi ~ 0
+ROM_DATA[3]
+Text GLabel 10200 1400 2    50   BiDi ~ 0
+ROM_DATA[2]
+Text GLabel 10200 1300 2    50   BiDi ~ 0
+ROM_DATA[1]
+Text GLabel 10200 1200 2    50   BiDi ~ 0
+ROM_DATA[0]
+Text GLabel 8000 3300 0    50   Input ~ 0
+ROM_ADDR[21]
+Text GLabel 8000 3200 0    50   Input ~ 0
+ROM_ADDR[20]
+Text GLabel 8000 3100 0    50   Input ~ 0
+ROM_ADDR[19]
+Text GLabel 8000 3000 0    50   Input ~ 0
+ROM_ADDR[18]
+Text GLabel 8000 2900 0    50   Input ~ 0
+ROM_ADDR[17]
+Text GLabel 8000 2800 0    50   Input ~ 0
+ROM_ADDR[16]
+Text GLabel 8000 2700 0    50   Input ~ 0
+ROM_ADDR[15]
+Text GLabel 8000 2500 0    50   Input ~ 0
+ROM_ADDR[13]
+Text GLabel 8000 2400 0    50   Input ~ 0
+ROM_ADDR[12]
+Text GLabel 8000 2300 0    50   Input ~ 0
+ROM_ADDR[11]
+Text GLabel 8000 2200 0    50   Input ~ 0
+ROM_ADDR[10]
+Text GLabel 8000 2100 0    50   Input ~ 0
+ROM_ADDR[9]
+Text GLabel 8000 2000 0    50   Input ~ 0
+ROM_ADDR[8]
+Text GLabel 8000 1900 0    50   Input ~ 0
+ROM_ADDR[7]
+Text GLabel 8000 1700 0    50   Input ~ 0
+ROM_ADDR[5]
+Text GLabel 8000 1600 0    50   Input ~ 0
+ROM_ADDR[4]
+Text GLabel 8000 1400 0    50   Input ~ 0
+ROM_ADDR[2]
+Text GLabel 8000 1300 0    50   Input ~ 0
+ROM_ADDR[1]
+Text GLabel 8000 1200 0    50   Input ~ 0
+ROM_ADDR[0]
+Text GLabel 8000 3600 0    50   Input ~ 0
+~ROM_WE
+Text GLabel 8000 3500 0    50   Input ~ 0
+~ROM_OE
+$Comp
+L Device:C_Small C604
+U 1 1 4BAD3D55
+P 7450 5950
+F 0 "C604" V 7350 5850 50  0000 L CNN
+F 1 "100n" V 7500 6000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7450 5950 60  0001 C CNN
+F 3 "" H 7450 5950 60  0001 C CNN
+F 4 "Yageo" H 7450 5950 50  0001 C CNN "Manufacturer"
+F 5 "603-CC402KRX5R5BB104" H 7450 5950 50  0001 C CNN "Mouser"
+F 6 "CC0402KRX5R5BB104" H 7450 5950 50  0001 C CNN "MPN"
+F 7 "311-3340-1-ND" H 7450 5950 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 7450 5950 50  0001 C CNN "Supplier"
+	1    7450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C603
+U 1 1 4BAD3D47
+P 7150 5950
+F 0 "C603" V 7050 5850 50  0000 L CNN
+F 1 "100n" V 7200 6000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7150 5950 60  0001 C CNN
+F 3 "" H 7150 5950 60  0001 C CNN
+F 4 "Yageo" H 7150 5950 50  0001 C CNN "Manufacturer"
+F 5 "603-CC402KRX5R5BB104" H 7150 5950 50  0001 C CNN "Mouser"
+F 6 "CC0402KRX5R5BB104" H 7150 5950 50  0001 C CNN "MPN"
+F 7 "311-3340-1-ND" H 7150 5950 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 7150 5950 50  0001 C CNN "Supplier"
+	1    7150 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0611
+U 1 1 4BAD3D20
+P 7150 6150
+F 0 "#PWR0611" H 7150 6150 30  0001 C CNN
+F 1 "GND" H 7150 6080 30  0001 C CNN
+F 2 "" H 7150 6150 60  0001 C CNN
+F 3 "" H 7150 6150 60  0001 C CNN
+	1    7150 6150
+	1    0    0    -1  
+$EndComp
+Text Notes 2500 7750 0    60   ~ 0
+4Mbits 45ns SRAM (battery RAM + custom chip work RAM)
+Wire Wire Line
+	1300 6750 1450 6750
+Wire Wire Line
+	1750 7350 1750 6950
+$Comp
+L sd2snes_ecp5:IS66WVE4M16EBLL-70BLI U603
+U 1 1 6210957A
+P 9100 2300
+F 0 "U603" H 9050 2500 50  0000 C CNN
+F 1 "IS66WVE4M16EBLL-70BLI" V 9050 1850 50  0000 C CNN
+F 2 "mybgas:TFBGA-48_6x8_6.0x8.0mm" H 8100 3650 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/66-67WVE4M16EALL-BLL-CLL.pdf" H 8800 2750 50  0001 C CNN
+F 4 "706-1547-ND" H 9100 2300 50  0001 C CNN "Digikey"
+F 5 "ISSI" H 9100 2300 50  0001 C CNN "Manufacturer"
+F 6 "870-66E4M16EBLL70BLI" H 9100 2300 50  0001 C CNN "Mouser"
+F 7 "IS66WVE4M16EBLL-70BLI" H 9100 2300 50  0001 C CNN "MPN"
+F 8 "Digikey" H 9100 2300 50  0001 C CNN "Supplier"
+	1    9100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L sd2snes_ecp5:IS62WV5128EBLL-45BLI U601
+U 1 1 621414AD
+P 3750 6150
+F 0 "U601" H 3750 6600 50  0000 C CNN
+F 1 "IS62WV5128EBLL-45BLI" V 3750 6000 50  0000 C CNN
+F 2 "mybgas:TFBGA-36_6x8_6.0x8.0mm" H 3750 7900 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/62-65WV5128EALL-BLL.pdf" H 3750 6150 50  0001 C CNN
+F 4 "706-1543-ND" H 3750 6150 50  0001 C CNN "Digikey"
+F 5 "ISSI" H 3750 6150 50  0001 C CNN "Manufacturer"
+F 6 "870-625128EBLL45BLI" H 3750 6150 50  0001 C CNN "Mouser"
+F 7 "IS62WV5128EBLL-45BLI" H 3750 6150 50  0001 C CNN "MPN"
+F 8 "Digikey" H 3750 6150 50  0001 C CNN "Supplier"
+	1    3750 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 6450 3150 6450
+Wire Wire Line
+	2000 7050 2000 6500
+Wire Wire Line
+	2000 6500 1750 6500
+Wire Wire Line
+	2000 7050 3150 7050
+Connection ~ 1750 6500
+Wire Wire Line
+	1750 6500 1750 6550
+Wire Wire Line
+	4900 3900 4400 3900
+Wire Wire Line
+	4900 4000 4400 4000
+Wire Wire Line
+	6100 2700 6600 2700
+Wire Wire Line
+	6100 2600 6600 2600
+Wire Wire Line
+	6100 2500 6600 2500
+Wire Wire Line
+	6100 2400 6600 2400
+Wire Wire Line
+	6100 2300 6600 2300
+Wire Wire Line
+	6100 2200 6600 2200
+Wire Wire Line
+	6100 2100 6600 2100
+Wire Wire Line
+	6100 2000 6600 2000
+Wire Wire Line
+	6100 1900 6600 1900
+Wire Wire Line
+	6100 1800 6600 1800
+Wire Wire Line
+	6100 1700 6600 1700
+Wire Wire Line
+	6100 1600 6600 1600
+Wire Wire Line
+	6100 1500 6600 1500
+Wire Wire Line
+	6100 1400 6600 1400
+Wire Wire Line
+	6100 1300 6600 1300
+Wire Wire Line
+	6100 1200 6600 1200
+Wire Wire Line
+	4900 1200 4400 1200
+Wire Wire Line
+	4900 1300 4400 1300
+Wire Wire Line
+	4900 1400 4400 1400
+Wire Wire Line
+	4900 1500 4400 1500
+Wire Wire Line
+	4900 1600 4400 1600
+Wire Wire Line
+	4900 1700 4400 1700
+Wire Wire Line
+	4900 1800 4400 1800
+Wire Wire Line
+	4900 1900 4400 1900
+Wire Wire Line
+	4900 2000 4400 2000
+Wire Wire Line
+	4900 2100 4400 2100
+Wire Wire Line
+	4900 2200 4400 2200
+Wire Wire Line
+	4900 2300 4400 2300
+Wire Wire Line
+	4900 2400 4400 2400
+Wire Wire Line
+	4900 2500 4400 2500
+Wire Wire Line
+	4900 2600 4400 2600
+Wire Wire Line
+	4900 2700 4400 2700
+Wire Wire Line
+	4900 2800 4400 2800
+Wire Wire Line
+	4900 2900 4400 2900
+Wire Wire Line
+	4900 3000 4400 3000
+Wire Wire Line
+	4900 3100 4400 3100
+Wire Wire Line
+	4900 3200 4400 3200
+Wire Wire Line
+	4900 3300 4400 3300
+Wire Wire Line
+	4900 3500 4400 3500
+Wire Wire Line
+	4900 3600 4400 3600
+Wire Wire Line
+	4900 3700 4400 3700
+Text GLabel 4400 3700 0    50   Input ~ 0
+~ROM0_CE
+Text GLabel 4400 3900 0    50   Input ~ 0
+~ROM_BHE
+Text GLabel 4400 4000 0    50   Input ~ 0
+~ROM_BLE
+Text GLabel 6600 2700 2    50   BiDi ~ 0
+ROM_DATA[15]
+Text GLabel 6600 2600 2    50   BiDi ~ 0
+ROM_DATA[14]
+Text GLabel 6600 2500 2    50   BiDi ~ 0
+ROM_DATA[13]
+Text GLabel 6600 2400 2    50   BiDi ~ 0
+ROM_DATA[12]
+Text GLabel 6600 2300 2    50   BiDi ~ 0
+ROM_DATA[11]
+Text GLabel 6600 2200 2    50   BiDi ~ 0
+ROM_DATA[10]
+Text GLabel 6600 2100 2    50   BiDi ~ 0
+ROM_DATA[9]
+Text GLabel 6600 2000 2    50   BiDi ~ 0
+ROM_DATA[8]
+Text GLabel 6600 1900 2    50   BiDi ~ 0
+ROM_DATA[7]
+Text GLabel 6600 1800 2    50   BiDi ~ 0
+ROM_DATA[6]
+Text GLabel 6600 1700 2    50   BiDi ~ 0
+ROM_DATA[5]
+Text GLabel 6600 1500 2    50   BiDi ~ 0
+ROM_DATA[3]
+Text GLabel 6600 1400 2    50   BiDi ~ 0
+ROM_DATA[2]
+Text GLabel 6600 1300 2    50   BiDi ~ 0
+ROM_DATA[1]
+Text GLabel 6600 1200 2    50   BiDi ~ 0
+ROM_DATA[0]
+Text GLabel 4400 3300 0    50   Input ~ 0
+ROM_ADDR[21]
+Text GLabel 4400 3200 0    50   Input ~ 0
+ROM_ADDR[20]
+Text GLabel 4400 3100 0    50   Input ~ 0
+ROM_ADDR[19]
+Text GLabel 4400 3000 0    50   Input ~ 0
+ROM_ADDR[18]
+Text GLabel 4400 2900 0    50   Input ~ 0
+ROM_ADDR[17]
+Text GLabel 4400 2800 0    50   Input ~ 0
+ROM_ADDR[16]
+Text GLabel 4400 2700 0    50   Input ~ 0
+ROM_ADDR[15]
+Text GLabel 4400 2600 0    50   Input ~ 0
+ROM_ADDR[14]
+Text GLabel 4400 2500 0    50   Input ~ 0
+ROM_ADDR[13]
+Text GLabel 4400 2400 0    50   Input ~ 0
+ROM_ADDR[12]
+Text GLabel 4400 2300 0    50   Input ~ 0
+ROM_ADDR[11]
+Text GLabel 4400 2200 0    50   Input ~ 0
+ROM_ADDR[10]
+Text GLabel 4400 2100 0    50   Input ~ 0
+ROM_ADDR[9]
+Text GLabel 4400 2000 0    50   Input ~ 0
+ROM_ADDR[8]
+Text GLabel 4400 1900 0    50   Input ~ 0
+ROM_ADDR[7]
+Text GLabel 4400 1800 0    50   Input ~ 0
+ROM_ADDR[6]
+Text GLabel 4400 1700 0    50   Input ~ 0
+ROM_ADDR[5]
+Text GLabel 4400 1600 0    50   Input ~ 0
+ROM_ADDR[4]
+Text GLabel 4400 1500 0    50   Input ~ 0
+ROM_ADDR[3]
+Text GLabel 4400 1400 0    50   Input ~ 0
+ROM_ADDR[2]
+Text GLabel 4400 1300 0    50   Input ~ 0
+ROM_ADDR[1]
+Text GLabel 4400 1200 0    50   Input ~ 0
+ROM_ADDR[0]
+Text GLabel 4400 3600 0    50   Input ~ 0
+~ROM_WE
+Text GLabel 4400 3500 0    50   Input ~ 0
+~ROM_OE
+$Comp
+L sd2snes_ecp5:IS66WVE4M16EBLL-70BLI U602
+U 1 1 6226FB34
+P 5500 2300
+F 0 "U602" H 5450 2500 50  0000 C CNN
+F 1 "IS66WVE4M16EBLL-70BLI" V 5450 1850 50  0000 C CNN
+F 2 "mybgas:TFBGA-48_6x8_6.0x8.0mm" H 4500 3650 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/66-67WVE4M16EALL-BLL-CLL.pdf" H 5200 2750 50  0001 C CNN
+F 4 "706-1547-ND" H 5500 2300 50  0001 C CNN "Digikey"
+F 5 "ISSI" H 5500 2300 50  0001 C CNN "Manufacturer"
+F 6 "870-66E4M16EBLL70BLI" H 5500 2300 50  0001 C CNN "Mouser"
+F 7 "IS66WVE4M16EBLL-70BLI" H 5500 2300 50  0001 C CNN "MPN"
+F 8 "Digikey" H 5500 2300 50  0001 C CNN "Supplier"
+	1    5500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0606
+U 1 1 622C1176
+P 3900 7550
+F 0 "#PWR0606" H 3900 7550 30  0001 C CNN
+F 1 "GND" H 3900 7480 30  0001 C CNN
+F 2 "" H 3900 7550 60  0001 C CNN
+F 3 "" H 3900 7550 60  0001 C CNN
+	1    3900 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0609
+U 1 1 622E80C9
+P 5650 4600
+F 0 "#PWR0609" H 5650 4600 30  0001 C CNN
+F 1 "GND" H 5650 4530 30  0001 C CNN
+F 2 "" H 5650 4600 60  0001 C CNN
+F 3 "" H 5650 4600 60  0001 C CNN
+	1    5650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0614
+U 1 1 622FC59B
+P 9250 4600
+F 0 "#PWR0614" H 9250 4600 30  0001 C CNN
+F 1 "GND" H 9250 4530 30  0001 C CNN
+F 2 "" H 9250 4600 60  0001 C CNN
+F 3 "" H 9250 4600 60  0001 C CNN
+	1    9250 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6100 7450 6100
+Connection ~ 7150 6100
+Wire Wire Line
+	7150 6100 7150 6150
+Wire Wire Line
+	7150 5600 7450 5600
+Connection ~ 7150 5600
+Wire Wire Line
+	7150 5600 7150 5850
+$Comp
+L Device:C_Small C606
+U 1 1 62327870
+P 8100 5950
+F 0 "C606" V 8000 5850 50  0000 L CNN
+F 1 "100n" V 8150 6000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8100 5950 60  0001 C CNN
+F 3 "" H 8100 5950 60  0001 C CNN
+F 4 "Yageo" H 8100 5950 50  0001 C CNN "Manufacturer"
+F 5 "603-CC402KRX5R5BB104" H 8100 5950 50  0001 C CNN "Mouser"
+F 6 "CC0402KRX5R5BB104" H 8100 5950 50  0001 C CNN "MPN"
+F 7 "311-3340-1-ND" H 8100 5950 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 8100 5950 50  0001 C CNN "Supplier"
+	1    8100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C605
+U 1 1 623278A4
+P 7800 5950
+F 0 "C605" V 7700 5850 50  0000 L CNN
+F 1 "100n" V 7850 6000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7800 5950 60  0001 C CNN
+F 3 "" H 7800 5950 60  0001 C CNN
+F 4 "Yageo" H 7800 5950 50  0001 C CNN "Manufacturer"
+F 5 "603-CC402KRX5R5BB104" H 7800 5950 50  0001 C CNN "Mouser"
+F 6 "CC0402KRX5R5BB104" H 7800 5950 50  0001 C CNN "MPN"
+F 7 "311-3340-1-ND" H 7800 5950 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 7800 5950 50  0001 C CNN "Supplier"
+	1    7800 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5600 7800 5600
+Wire Wire Line
+	8100 5600 8100 5850
+Connection ~ 7450 5600
+Wire Wire Line
+	7800 5850 7800 5600
+Connection ~ 7800 5600
+Wire Wire Line
+	7800 5600 8100 5600
+Wire Wire Line
+	7800 6050 7800 6100
+Wire Wire Line
+	7800 6100 7450 6100
+Connection ~ 7450 6100
+Wire Wire Line
+	8100 6050 8100 6100
+Wire Wire Line
+	8100 6100 7800 6100
+Connection ~ 7800 6100
+$Comp
+L Device:C_Small C601
+U 1 1 6236B4C1
+P 5000 7150
+F 0 "C601" V 5100 7050 50  0000 L CNN
+F 1 "100n" V 4950 7200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5000 7150 60  0001 C CNN
+F 3 "" H 5000 7150 60  0001 C CNN
+F 4 "Yageo" H 5000 7150 50  0001 C CNN "Manufacturer"
+F 5 "603-CC402KRX5R5BB104" H 5000 7150 50  0001 C CNN "Mouser"
+F 6 "CC0402KRX5R5BB104" H 5000 7150 50  0001 C CNN "MPN"
+F 7 "311-3340-1-ND" H 5000 7150 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 5000 7150 50  0001 C CNN "Supplier"
+	1    5000 7150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 7250 5400 7300
+$Comp
+L Device:C_Small C602
+U 1 1 4BAD3D53
+P 5400 7150
+F 0 "C602" V 5500 7050 50  0000 L CNN
+F 1 "100n" V 5350 7200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 7150 60  0001 C CNN
+F 3 "" H 5400 7150 60  0001 C CNN
+F 4 "Yageo" H 5400 7150 50  0001 C CNN "Manufacturer"
+F 5 "603-CC402KRX5R5BB104" H 5400 7150 50  0001 C CNN "Mouser"
+F 6 "CC0402KRX5R5BB104" H 5400 7150 50  0001 C CNN "MPN"
+F 7 "311-3340-1-ND" H 5400 7150 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 5400 7150 50  0001 C CNN "Supplier"
+	1    5400 7150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6800 5000 7050
+Connection ~ 1750 4750
+Wire Wire Line
+	5400 6800 5400 7050
+Wire Wire Line
+	5400 6800 5000 6800
+Wire Wire Line
+	5500 900  5600 900 
+Wire Wire Line
+	5600 900  5650 900 
+Wire Wire Line
+	5650 900  5650 850 
+Connection ~ 5600 900 
+Wire Wire Line
+	9100 900  9200 900 
+Wire Wire Line
+	9200 900  9250 900 
+Wire Wire Line
+	9250 900  9250 850 
+Connection ~ 9200 900 
+Wire Wire Line
+	9100 4500 9200 4500
+Wire Wire Line
+	9200 4500 9250 4500
+Wire Wire Line
+	9250 4500 9250 4600
+Connection ~ 9200 4500
+Wire Wire Line
+	5500 4500 5600 4500
+Wire Wire Line
+	5600 4500 5650 4500
+Wire Wire Line
+	5650 4500 5650 4600
+Connection ~ 5600 4500
+Wire Wire Line
+	3750 4850 3800 4850
+Wire Wire Line
+	3750 7450 3850 7450
+Wire Wire Line
+	3900 7550 3900 7450
+Wire Wire Line
+	3900 7450 3850 7450
+Connection ~ 3850 7450
+Wire Wire Line
+	3600 4050 3600 4200
+Wire Wire Line
+	3600 4200 4900 4200
+Wire Wire Line
+	8500 4200 7200 4200
+Wire Wire Line
+	7200 4200 7200 4050
+Wire Wire Line
+	1750 4750 1750 6050
+Wire Wire Line
+	1300 6750 1300 6900
+Wire Wire Line
+	3800 4750 3800 4850
+Wire Wire Line
+	1750 4750 2600 4750
+Connection ~ 3800 4850
+Wire Wire Line
+	3800 4850 3850 4850
+$Comp
+L power:GND #PWR0607
+U 1 1 4BF1A006
+P 5000 7350
+F 0 "#PWR0607" H 5000 7350 30  0001 C CNN
+F 1 "GND" H 5000 7280 30  0001 C CNN
+F 2 "" H 5000 7350 60  0001 C CNN
+F 3 "" H 5000 7350 60  0001 C CNN
+	1    5000 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7250 5000 7300
+Wire Wire Line
+	5400 7300 5000 7300
+Connection ~ 5000 7300
+Wire Wire Line
+	5000 7300 5000 7350
+Text Label 4900 6700 0    50   ~ 0
+SRAM_VDD
+Wire Wire Line
+	4900 6700 5000 6700
+Wire Wire Line
+	5000 6700 5000 6800
+Connection ~ 5000 6800
+Wire Wire Line
+	1750 4750 1750 4700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 681F5A9F
+P 1250 4400
+AR Path="/4B6E16F2/681F5A9F" Ref="#PWR?"  Part="1" 
+AR Path="/4BAA6ABD/681F5A9F" Ref="#PWR0602"  Part="1" 
+F 0 "#PWR0602" H 1250 4250 50  0001 C CNN
+F 1 "+3V3" H 1265 4573 50  0000 C CNN
+F 2 "" H 1250 4400 50  0001 C CNN
+F 3 "" H 1250 4400 50  0001 C CNN
+	1    1250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 68203344
+P 750 6650
+AR Path="/4B6E16F2/68203344" Ref="#PWR?"  Part="1" 
+AR Path="/4BAA6ABD/68203344" Ref="#PWR0601"  Part="1" 
+F 0 "#PWR0601" H 750 6500 50  0001 C CNN
+F 1 "+3V3" H 765 6823 50  0000 C CNN
+F 2 "" H 750 6650 50  0001 C CNN
+F 3 "" H 750 6650 50  0001 C CNN
+	1    750  6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 68203E9F
+P 3600 4050
+AR Path="/4B6E16F2/68203E9F" Ref="#PWR?"  Part="1" 
+AR Path="/4BAA6ABD/68203E9F" Ref="#PWR0605"  Part="1" 
+F 0 "#PWR0605" H 3600 3900 50  0001 C CNN
+F 1 "+3V3" H 3615 4223 50  0000 C CNN
+F 2 "" H 3600 4050 50  0001 C CNN
+F 3 "" H 3600 4050 50  0001 C CNN
+	1    3600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6820554B
+P 5650 850
+AR Path="/4B6E16F2/6820554B" Ref="#PWR?"  Part="1" 
+AR Path="/4BAA6ABD/6820554B" Ref="#PWR0608"  Part="1" 
+F 0 "#PWR0608" H 5650 700 50  0001 C CNN
+F 1 "+3V3" H 5665 1023 50  0000 C CNN
+F 2 "" H 5650 850 50  0001 C CNN
+F 3 "" H 5650 850 50  0001 C CNN
+	1    5650 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 68212404
+P 9250 850
+AR Path="/4B6E16F2/68212404" Ref="#PWR?"  Part="1" 
+AR Path="/4BAA6ABD/68212404" Ref="#PWR0613"  Part="1" 
+F 0 "#PWR0613" H 9250 700 50  0001 C CNN
+F 1 "+3V3" H 9265 1023 50  0000 C CNN
+F 2 "" H 9250 850 50  0001 C CNN
+F 3 "" H 9250 850 50  0001 C CNN
+	1    9250 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 68213129
+P 7150 5550
+AR Path="/4B6E16F2/68213129" Ref="#PWR?"  Part="1" 
+AR Path="/4BAA6ABD/68213129" Ref="#PWR0610"  Part="1" 
+F 0 "#PWR0610" H 7150 5400 50  0001 C CNN
+F 1 "+3V3" H 7165 5723 50  0000 C CNN
+F 2 "" H 7150 5550 50  0001 C CNN
+F 3 "" H 7150 5550 50  0001 C CNN
+	1    7150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 68213CE9
+P 7200 4050
+AR Path="/4B6E16F2/68213CE9" Ref="#PWR?"  Part="1" 
+AR Path="/4BAA6ABD/68213CE9" Ref="#PWR0612"  Part="1" 
+F 0 "#PWR0612" H 7200 3900 50  0001 C CNN
+F 1 "+3V3" H 7215 4223 50  0000 C CNN
+F 2 "" H 7200 4050 50  0001 C CNN
+F 3 "" H 7200 4050 50  0001 C CNN
+	1    7200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0604
+U 1 1 6821491C
+P 2250 4400
+F 0 "#PWR0604" H 2250 4250 50  0001 C CNN
+F 1 "+BATT" H 2265 4573 50  0000 C CNN
+F 2 "" H 2250 4400 50  0001 C CNN
+F 3 "" H 2250 4400 50  0001 C CNN
+	1    2250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 7200 1300 7350
+Wire Wire Line
+	1750 6350 1750 6500
+Text Notes 6600 4650 0    50   ~ 0
+2 x 64Mbits 70ns PSRAM (ROM area)
+$Comp
+L Diode:BAT54C D601
+U 1 1 68C14596
+P 1750 4500
+F 0 "D601" H 1750 4600 50  0000 C CNN
+F 1 "BAT54C" H 1750 4700 50  0000 C CNN
+F 2 "rounded:SOT-23" H 1825 4625 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 1670 4500 50  0001 C CNN
+F 4 "ON Semiconductor" H 1750 4500 50  0001 C CNN "Manufacturer"
+F 5 "863-BAT54CLT3G" H 1750 4500 50  0001 C CNN "Mouser"
+F 6 "BAT54CLT3G" H 1750 4500 50  0001 C CNN "MPN"
+F 7 "BAT54CLT3GOSCT-ND" H 1750 4500 50  0001 C CNN "Digikey"
+F 8 "Digikey" H 1750 4500 50  0001 C CNN "Supplier"
+	1    1750 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4500 2250 4500
+Wire Wire Line
+	1250 4500 1450 4500
+$Comp
+L power:PWR_FLAG #FLG0601
+U 1 1 5FDC5406
+P 2600 4750
+F 0 "#FLG0601" H 2600 4825 50  0001 C CNN
+F 1 "PWR_FLAG" H 2600 4923 50  0000 C CNN
+F 2 "" H 2600 4750 50  0001 C CNN
+F 3 "~" H 2600 4750 50  0001 C CNN
+	1    2600 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 4750
+Wire Wire Line
+	2600 4750 3800 4750
+Text GLabel 6600 1600 2    50   BiDi ~ 0
+ROM_DATA[4]
+Text GLabel 8000 1500 0    50   Input ~ 0
+ROM_ADDR[3]
+Text GLabel 8000 1800 0    50   Input ~ 0
+ROM_ADDR[6]
+Text GLabel 8000 2600 0    50   Input ~ 0
+ROM_ADDR[14]
+Text GLabel 2650 6350 0    50   Input ~ 0
+RAM_ADDR[13]
+Wire Wire Line
+	8500 1200 8000 1200
+Text Label 2650 7050 0    50   ~ 0
+~SDRAM_CS
+$EndSCHEMATC

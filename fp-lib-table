@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name snescart)(type KiCad)(uri ${KIPRJMOD}/footprints/snescart.pretty)(options "")(descr ""))
+  (lib (name bgas)(type KiCad)(uri ${KIPRJMOD}/footprints/bgas.pretty)(options "")(descr ""))
+  (lib (name rounded)(type KiCad)(uri ${KIPRJMOD}/footprints/rounded.pretty)(options "")(descr ""))
+)

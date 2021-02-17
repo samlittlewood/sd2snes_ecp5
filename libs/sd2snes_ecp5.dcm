@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74ALVC164245DGG
+D 16-bit dual supply translating transceiver; 3-state
+F https://assets.nexperia.com/documents/data-sheet/74ALVC164245.pdf
+$ENDCMP
+#
+$CMP IS62WV5128EBLL-45BLI
+D 512K x 8 HIGH-SPEED LOW VOLTAGE ULTRA LOW POWER CMOS STATIC RAM, 45ns, 36-TFBGA
+K SRAM MEMORY
+F http://www.issi.com/WW/pdf/62-65WV5128EALL-BLL.pdf
+$ENDCMP
+#
+$CMP IS66WVE4M16EBLL-70BLI
+D 4M x 16 CMOS PSRAM
+K memory SRAM
+F http://www.issi.com/WW/pdf/66-67WVE4M16EALL-BLL-CLL.pdf
+$ENDCMP
+#
+#End Doc Library
