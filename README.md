@@ -8,8 +8,8 @@ Based on https://github.com/mrehkopf/sd2snes
 * MSU-1 DAC mods from https://github.com/DevLaTron/sd2snes
 * USB-C (2.0) connector
 
-Schematic: https://github.com/samlittlewood/sd2snes_ecp5/raw/master/RevB/sd2snes_ecp5.pdf
+Schematic: https://github.com/samlittlewood/sd2snes_ecp5/raw/main/RevB/sd2snes_ecp5.pdf
 
 WARNING: This is still a prototype - it has managed to run games, but more than likely has some 'hilarious in hindsight' mistakes that have yet to be found.
  
-![Shiny](https://github.com/samlittlewood/sd2snes_ecp5/raw/master/RevB/sd2snes_ecp5.png)
+![Shiny](https://github.com/samlittlewood/sd2snes_ecp5/raw/main/RevB/sd2snes_ecp5.png)
