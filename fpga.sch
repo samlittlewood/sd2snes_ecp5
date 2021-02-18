@@ -467,7 +467,7 @@ Text GLabel 2200 9400 0    50   Input ~ 0
 SNES_PA_IN[0]
 Text GLabel 2200 9500 0    50   Input ~ 0
 SNES_PA_IN[1]
-Text GLabel 2200 7600 0    50   Input ~ 0
+Text GLabel 2200 7700 0    50   Input ~ 0
 SNES_CPU_CLK_IN
 Text GLabel 2200 8900 0    50   Input ~ 0
 ~SNES_WRITE_IN
@@ -493,7 +493,7 @@ Text GLabel 2200 7800 0    50   Output ~ 0
 ~SNES_DATABUS_OE
 Text GLabel 2200 9300 0    50   Input ~ 0
 ~SNES_READ_IN
-Text GLabel 2200 7700 0    50   Input ~ 0
+Text GLabel 2200 7600 0    50   Input ~ 0
 ~SNES_ROMSEL_IN
 Text GLabel 2200 8000 0    50   Input ~ 0
 SNES_ADDR_IN[23]
@@ -1408,8 +1408,6 @@ NoConn ~ 3800 2900
 NoConn ~ 3800 5000
 Text Notes 4250 10450 0    50   ~ 0
 PCLKT7_1\n
-Text Notes 1100 7650 0    50   ~ 0
-PCLKT6_1\n
 Text Notes 9650 2050 0    50   ~ 0
 PCLKT3_1\n
 Text GLabel 14550 2100 0    50   Input ~ 0

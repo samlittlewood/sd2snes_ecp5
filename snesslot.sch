@@ -1115,7 +1115,7 @@ Text GLabel 9950 6400 2    50   Output ~ 0
 SNES_ADDR_IN[0]
 Text GLabel 9950 6500 2    50   Output ~ 0
 SNES_ADDR_IN[23]
-Text GLabel 9950 6700 2    50   Output ~ 0
+Text GLabel 9950 6600 2    50   Output ~ 0
 ~SNES_ROMSEL_IN
 Text GLabel 9950 2550 2    50   Output ~ 0
 ~SNES_READ_IN
@@ -1137,7 +1137,7 @@ Text GLabel 10850 2150 2    50   BiDi ~ 0
 SNES_DATA[3]
 Text GLabel 9950 2650 2    50   Output ~ 0
 ~SNES_WRITE_IN
-Text GLabel 9950 6600 2    50   Output ~ 0
+Text GLabel 9950 6700 2    50   Output ~ 0
 SNES_CPU_CLK_IN
 Text GLabel 9950 2850 2    50   Output ~ 0
 SNES_PA_IN[1]
